@@ -17,6 +17,13 @@ The primary users are **head coach Andy Reid** and the offensive coordinator dur
 ## Connection to Chapter 7
 This idea currently sits in the **creative phase** of Alamar's innovation framework. The decision problem has been stated, the data sources and analytical approach have been identified, and the intended users and workflow are defined. However, no prototype has been built, no coach has interacted with a mockup, and no feedback loop exists with the football operations staff. According to Chapter 7, the next step is prototyping. 
 
+## Prototype Enhancement
+The original project scoped recommendations around three dimensions: pass concepts against defensive fronts, pre snap motion usage, and run scheme selection. The proposed enhancement adds a **self-scouting tendency layer** that flags when the Chiefs' own play calling patterns in a given situation (down, distance, personnel, formation) have become predictable relative to league distribution — specifically, when the their play type or concept selection falls below a threshold opposing defensive coordinators could exploit.
+
+**What is being changed:** Adding a tendency module that measures how varied the Chiefs' play selection is within specific situations, compared against league wide distributions and against the Chiefs' own historical patterns. Output would include a predictability score per situation, highlighted situations where the Chiefs have become overly tendency heavy, and recommended counter calls to restore balance.
+
+**Why this change could improve decision making:** The core risk of any successful offense is becoming readable. Defensive coordinators invest significant film study into identifying tendencies, and even a small predictability advantage compounds across a game. Adding a self scouting layer mirrors how NFL offensive staffs already think about their own call sheets, which lowers the adoption friction. 
+
 ## Prototype Evaluation
 The self scouting tendency enhancement should likely be integrated into the main project, but validation with the coaching staff is required before committing to full implementation. The main question is whether the predictability score produces useful insight. If it only confirms existing intuition, it still has value as a time saver. If it shows  missed patterns, the value is much higher.
 
