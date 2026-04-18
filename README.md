@@ -16,3 +16,8 @@ The primary users are **head coach Andy Reid** and the offensive coordinator dur
 
 ## Connection to Chapter 7
 This idea currently sits in the **creative phase** of Alamar's innovation framework. The decision problem has been stated, the data sources and analytical approach have been identified, and the intended users and workflow are defined. However, no prototype has been built, no coach has interacted with a mockup, and no feedback loop exists with the football operations staff. According to Chapter 7, the next step is prototyping. 
+
+## Prototype Evaluation
+The self scouting tendency enhancement should likely be integrated into the main project, but validation with the coaching staff is required before committing to full implementation. The main question is whether the predictability score produces useful insight. If it only confirms existing intuition, it still has value as a time saver. If it shows  missed patterns, the value is much higher.
+
+Feedback from decision makers that would influence the integration decision includes: (1) whether the offensive coordinator finds the situations (down, distance, personnel, formation) aligned with how the staff already categorizes calls, or whether the categories need adjustment. (2) whether the predictability threshold can be calibrated to a level the staff considers meaningful rather than noisy.  (3) whether the recommended counter calls fit naturally within the existing concept library and personnel groupings, or whether they would require scheme changes the staff is unwilling to make mid season.
