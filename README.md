@@ -28,3 +28,12 @@ The original project scoped recommendations around three dimensions: pass concep
 The self scouting tendency enhancement should likely be integrated into the main project, but validation with the coaching staff is required before committing to full implementation. The main question is whether the predictability score produces useful insight. If it only confirms existing intuition, it still has value as a time saver. If it shows  missed patterns, the value is much higher.
 
 Feedback from decision makers that would influence the integration decision includes: (1) whether the offensive coordinator finds the situations (down, distance, personnel, formation) aligned with how the staff already categorizes calls, or whether the categories need adjustment. (2) whether the predictability threshold can be calibrated to a level the staff considers meaningful rather than noisy.  (3) whether the recommended counter calls fit naturally within the existing concept library and personnel groupings, or whether they would require scheme changes the staff is unwilling to make mid season.
+
+
+## Reflection on Innovation and Version Control
+
+GitHub branches directly support the low risk experimentation by isolating the enhancement on a separate `prototype` branch, the core project on `main` stable and shareable with stakeholders while the enhancement was developed and evaluated independently. This shows how analytics teams operate in real organizations. 
+
+GitHub also helps analytics ideas gain traction with decision makers by making the evolution of an idea visible and auditable. Commit messages document why changes were made, pull request discussions capture evaluations, and the README serves as a single source of truth that non technical staff members can read without touching any code. 
+
+The overall workflow aligns closely with chapter 7's four phase innovation framework. The initial README commit represents the **creative phase**, by stating the idea and the decision problem it solves. The `prototype` branch represents the **prototyping phase**, by building a low cost, reversible version of an enhancement designed to demonstrate value. The evaluation section and pull request discussion represent the **engagement phase**, identifying the feedback that would influence adoption and inviting review. The final merge represents the **build phase** , which integrating the validated enhancement into the official version of the tool. 
